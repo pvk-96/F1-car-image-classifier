@@ -6,7 +6,8 @@ It covers data cleaning, augmentation, model training (CNN, MobileNetV2), evalua
 
 ## Dataset
 **Source:** Kaggle F1 Cars Image Dataset (downloaded)  
-**Drive Access:** Google Drive Download Folder  
+**Drive Access:** https://drive.google.com/drive/folders/1hnEZP3IjwaXavBqQIaDtW76I3gVWrwwd?usp=sharing 
+***Kaggle Link*** https://www.kaggle.com/datasets/vesuvius13/formula-one-cars
 
 **Description:**  
 Contains ~800–850 MB of curated F1 car images, organized in folders by class (car/model/team).  
@@ -19,17 +20,10 @@ Download the dataset from the Google Drive link above and place it in your works
 You will find in this repository:
 
 **Notebook(s):**
-- `f1-car-classification.ipynb` – End-to-end training, evaluation, model optimization.
+- `F1_Car_Image_Classification_End_to_End_CNN_Training,_Evaluation_&_Optimization.ipynb` – End-to-end training, evaluation, model optimization.
 
 **Report:**
-- `report.pdf` – A summary of the workflow, results, and key findings.
-
-**Sample Outputs:**
-- Confusion matrix, accuracy/f1 plots, setup logs, training graphs.
-
-**Scripts:** (optional, if exported from Colab)
-- `requirements.txt` – List of Python packages required.
-- `utils.py` – Any helper functions (if used).
+- `Report.pdf` – A summary of the workflow, results, and key findings.
 
 **Model Weights:**
 - Link to Google Drive for pruned/trained model files (since large files can't go on GitHub).
@@ -45,10 +39,6 @@ You will find in this repository:
 - Python 3.7+
 - TensorFlow 2.9+, tensorflow-model-optimization, numpy, matplotlib, scikit-learn
 
-For Colab: just run cells; for local, use `requirements.txt`:
-```bash
-pip install -r requirements.txt
-```
 
 ### Run Workflow
 1. Open notebook in Colab or Jupyter.
@@ -64,22 +54,10 @@ pip install -r requirements.txt
 ```
 ├── f1-car-classification.ipynb
 ├── report.pdf
-├── requirements.txt
-├── utils.py          # (optional)
-├── /images_results/  # Figures, confusion matrices, sample outputs
 └── README.md
 ```
 Dataset and model weights stored externally due to size limits.
 
-## What Else Can I Upload To GitHub?
-- All code (scripts, notebooks, helper files)
-- Documentation (`README.md`, `report.pdf`)
-- Small figures, sample output images
-- Sample data (a few images, if they are under the file size limits)
-- Requirements/environment files
-- Instructions for how to download/use the larger dataset and models
-
-For large data and models, always use links to external storage (Google Drive, Kaggle, HuggingFace, etc.).
 
 ## References
 - Kaggle Dataset Homepage (add your specific dataset page if you wish)
