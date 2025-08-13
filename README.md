@@ -60,7 +60,7 @@ Dataset and model weights stored externally due to size limits.
 
 
 ## References
-- Kaggle Dataset Homepage (add your specific dataset page if you wish)
+- Kaggle Dataset Homepage
 - TensorFlow Model Optimization Toolkit documentation
 
 ## License
