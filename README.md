@@ -59,9 +59,6 @@ You will find in this repository:
 Dataset and model weights stored externally due to size limits.
 
 
-## References
-- Kaggle Dataset Homepage
-- TensorFlow Model Optimization Toolkit documentation
 
 ## License
 This code is released under the MIT License.  
